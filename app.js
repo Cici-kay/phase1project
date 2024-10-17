@@ -57,7 +57,7 @@ function displayWeather(data) {
 	// Convert temperature from Fahrenheit to Celsius
 	const tempCelsius = ((data.main.temp - 32) * (5 / 9)).toFixed(2); // Convert and round to 2 decimal places
 
-	// Update DOM elements with the weather data
+	// Update DOM elements with the weather info
 	locationName.textContent = `${data.name}, ${data.sys.country}`;
 	temperature.textContent = `Temperature: ${tempCelsius} °C`;
 	weatherDescription.textContent = `Condition: ${data.weather[0].description}`;

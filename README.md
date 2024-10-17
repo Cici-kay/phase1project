@@ -21,15 +21,17 @@ JavaScript: Fetching weather data from an API and updating the UI.
 Open Weather API: Source of real-time weather data.
 
 Getting Started
+
 To run the application locally, follow these steps:
 
 Clone the repository:
 
 bash
 Copy code
-git clone <repository-url>
-cd weather-app
-Open index.html in your browser.
+git clone this repo
+cd to this repo
+go live on vs code
+
 
 Enter a city name in the search box and click the Search button.
 

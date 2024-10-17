@@ -13,7 +13,7 @@ async function getWeather() {
 			method: "GET",
 			headers: {
 				"x-rapidapi-key":
-					"392184318dmsh2bc3d17b1cfd34bp12b13ejsn93e6b9289232",
+					"1b10909392mshbf8fea5ad78a6a2p1f167ejsn54b3db00475b",
 				"x-rapidapi-host": "open-weather13.p.rapidapi.com",
 			},
 		};

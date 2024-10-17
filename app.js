@@ -72,7 +72,7 @@ function displayWeather(data) {
 	)} km`; // Convert meters to kms
 	cloudiness.textContent = `Cloudiness: ${data.clouds.all}%`;
 
-	// Sunrise and Sunset in human-readable format
+	// Sunrise and Sunset in readable format
 	const sunriseTime = new Date(data.sys.sunrise * 1000).toLocaleTimeString();
 	const sunsetTime = new Date(data.sys.sunset * 1000).toLocaleTimeString();
 	sunrise.textContent = `Sunrise: ${sunriseTime}`;

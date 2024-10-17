@@ -1,6 +1,7 @@
 Weather App
 
-Welcome to the Weather App! This application allows you to search for any city and view the current weather conditions, including temperature, humidity, wind speed, and more.
+Welcome to the Weather App! 
+This application allows you to search for any city and view the current weather conditions, including temperature, humidity, wind speed, and more.
 
 Features
 City Search: Enter any city name to retrieve its weather data.

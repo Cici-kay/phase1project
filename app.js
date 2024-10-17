@@ -22,10 +22,10 @@ async function getWeather() {
 			const response = await fetch(url, options);
 			const result = await response.json();
 
-			// Log the entire result to see its structure
+			// Log the entire result 
 			console.log(result);
 
-			// Check if the required data exists before accessing it
+			// Check if the required data exists 
 			if (result && result.main && result.weather && result.sys) {
 				displayWeather(result);
 			} else {
@@ -63,13 +63,13 @@ function displayWeather(data) {
 	weatherDescription.textContent = `Condition: ${data.weather[0].description}`;
 	weatherIcon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
 
-	// Additional weather data
+	// Additional weather info
 	wind.textContent = `Wind: ${data.wind.speed} m/s, direction: ${data.wind.deg}°`;
 	humidity.textContent = `Humidity: ${data.main.humidity}%`;
 	pressure.textContent = `Pressure: ${data.main.pressure} hPa`;
 	visibility.textContent = `Visibility: ${(data.visibility / 1000).toFixed(
 		2
-	)} km`; // Convert meters to kilometers
+	)} km`; // Convert meters to kms
 	cloudiness.textContent = `Cloudiness: ${data.clouds.all}%`;
 
 	// Sunrise and Sunset in human-readable format

@@ -12,11 +12,14 @@ Detailed Weather Information: View temperature (in Celsius), humidity, wind spee
 Weather Alerts: Receive alerts for various temperature ranges.
 
 Responsive Design: The app is styled to work seamlessly on both desktop and mobile devices.
-Technologies Used
+
+Technologies Used;
+
 HTML: Structure of the web application.
 CSS: Styling and layout of the application.
 JavaScript: Fetching weather data from an API and updating the UI.
 Open Weather API: Source of real-time weather data.
+
 Getting Started
 To run the application locally, follow these steps:
 

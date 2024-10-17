@@ -8,7 +8,9 @@ Features
 City Search: Enter any city name to retrieve its weather data.
 
 Detailed Weather Information: View temperature (in Celsius), humidity, wind speed, pressure, visibility, sunrise, and sunset times.
+
 Weather Alerts: Receive alerts for various temperature ranges.
+
 Responsive Design: The app is styled to work seamlessly on both desktop and mobile devices.
 Technologies Used
 HTML: Structure of the web application.
